@@ -12,6 +12,9 @@
     "npm": {
         "commitMessageTopic": "{{prettyDepType}} {{depName}}"
     },
+    "pnpm": {
+        "commitMessageTopic": "{{prettyDepType}} {{depName}}"
+    },
     "docker": {
         "enabled": false
     },
