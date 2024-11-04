@@ -8,7 +8,6 @@
         ":semanticCommitTypeAll(chore)"
     ],
     "timezone": "Asia/Shanghai",
-    "rangeStrategy": "bump",
     "npm": {
         "commitMessageTopic": "{{prettyDepType}} {{depName}}"
     },
@@ -31,7 +30,5 @@
             ],
             "automerge": true
         }
-    ],
-    "platformAutomerge": true,
-    "ignoreTests": true
+    ]
 }
