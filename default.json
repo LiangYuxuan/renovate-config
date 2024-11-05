@@ -14,9 +14,6 @@
     "pnpm": {
         "commitMessageTopic": "{{prettyDepType}} {{depName}}"
     },
-    "docker": {
-        "enabled": false
-    },
     "nuget": {
         "enabled": false
     },
