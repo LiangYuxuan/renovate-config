@@ -9,12 +9,8 @@
     ],
     "timezone": "Asia/Shanghai",
     "bumpVersion": "patch",
-    "npm": {
-        "commitMessageTopic": "{{prettyDepType}} {{depName}}"
-    },
-    "pnpm": {
-        "commitMessageTopic": "{{prettyDepType}} {{depName}}"
-    },
+    "rangeStrategy": "bump",
+    "commitMessageTopic": "{{prettyDepType}} {{depName}}",
     "nuget": {
         "enabled": false
     },
@@ -27,6 +23,12 @@
                 "digest"
             ],
             "automerge": true
+        },
+        {
+            "matchDepTypes": [
+                "peerDependencies"
+            ],
+            "rangeStrategy": "widen"
         }
     ],
     "platformAutomerge": false
