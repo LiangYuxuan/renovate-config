@@ -40,6 +40,10 @@
                 "butlerlogic/action-autotag"
             ],
             "automerge": false
+        },
+        {
+            "matchDatasources": ["npm"],
+            "minimumReleaseAge": "1 days"
         }
     ],
     "platformAutomerge": false
